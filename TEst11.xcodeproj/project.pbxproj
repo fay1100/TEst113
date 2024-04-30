@@ -14,6 +14,9 @@
 		5AFE0AC72BE029270094C14E /* TEst11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE0AC62BE029270094C14E /* TEst11Tests.swift */; };
 		5AFE0AD12BE029270094C14E /* TEst11UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE0AD02BE029270094C14E /* TEst11UITests.swift */; };
 		5AFE0AD32BE029270094C14E /* TEst11UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE0AD22BE029270094C14E /* TEst11UITestsLaunchTests.swift */; };
+		5AFE0AE12BE02E140094C14E /* UserProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE0AE02BE02E140094C14E /* UserProfileManager.swift */; };
+		5AFE0AE32BE0300B0094C14E /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE0AE22BE0300B0094C14E /* UserProfileView.swift */; };
+		5AFE0AE52BE038BE0094C14E /* camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE0AE42BE038BE0094C14E /* camera.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,10 @@
 		5AFE0ACC2BE029270094C14E /* TEst11UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TEst11UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFE0AD02BE029270094C14E /* TEst11UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEst11UITests.swift; sourceTree = "<group>"; };
 		5AFE0AD22BE029270094C14E /* TEst11UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEst11UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5AFE0ADF2BE029360094C14E /* TEst11.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TEst11.entitlements; sourceTree = "<group>"; };
+		5AFE0AE02BE02E140094C14E /* UserProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileManager.swift; sourceTree = "<group>"; };
+		5AFE0AE22BE0300B0094C14E /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		5AFE0AE42BE038BE0094C14E /* camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camera.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,9 @@
 		5AFE0AA92BE029260094C14E = {
 			isa = PBXGroup;
 			children = (
+				5AFE0AE42BE038BE0094C14E /* camera.swift */,
+				5AFE0AE22BE0300B0094C14E /* UserProfileView.swift */,
+				5AFE0AE02BE02E140094C14E /* UserProfileManager.swift */,
 				5AFE0AB42BE029260094C14E /* TEst11 */,
 				5AFE0AC52BE029270094C14E /* TEst11Tests */,
 				5AFE0ACF2BE029270094C14E /* TEst11UITests */,
@@ -94,6 +104,7 @@
 		5AFE0AB42BE029260094C14E /* TEst11 */ = {
 			isa = PBXGroup;
 			children = (
+				5AFE0ADF2BE029360094C14E /* TEst11.entitlements */,
 				5AFE0AB52BE029260094C14E /* TEst11App.swift */,
 				5AFE0AB72BE029260094C14E /* ContentView.swift */,
 				5AFE0AB92BE029270094C14E /* Assets.xcassets */,
@@ -258,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AFE0AB82BE029260094C14E /* ContentView.swift in Sources */,
+				5AFE0AE12BE02E140094C14E /* UserProfileManager.swift in Sources */,
+				5AFE0AE52BE038BE0094C14E /* camera.swift in Sources */,
 				5AFE0AB62BE029260094C14E /* TEst11App.swift in Sources */,
+				5AFE0AE32BE0300B0094C14E /* UserProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,9 +433,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TEst11/TEst11.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TEst11/Preview Content\"";
+				DEVELOPMENT_TEAM = 25ANLCX5P6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -434,7 +450,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fa.TEst11;
+				PRODUCT_BUNDLE_IDENTIFIER = gg543;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -447,9 +463,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TEst11/TEst11.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TEst11/Preview Content\"";
+				DEVELOPMENT_TEAM = 25ANLCX5P6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -462,7 +480,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fa.TEst11;
+				PRODUCT_BUNDLE_IDENTIFIER = gg543;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
